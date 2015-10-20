@@ -23,14 +23,38 @@
   </head>
   <body>
     <!-- You may want to put your title and additional informaiton here -->
+    <div class = "container">
+      <h1>Police Shootings</h1>
+      <div class = "table-responsive">
+        <table class="table table-bordered table-hover">
+          <tr>
+            <td></td>
+            <th>Men</th>
+            <th>Women/unspecified</th>
+          </tr>
+          <tr>
+            <th>Hit</th>
+            <td id = "maleHit"></td>
+            <td id = "femaleHit"></td>
+          </tr>
+          <tr>
+            <th>Killed</th>
+            <td id = "maleKill"></td>
+            <td id = "femaleKill"></td>
+          </tr>
+        </table>
+      </div>
+    <p>
+      In recent years, and particularly in the wake of the <a href="https://en.wikipedia.org/wiki/Black_Lives_Matter">#BlackLivesMatter</a> movement after the shooting of Michael Brown, police shootings of Americans have become a major political and contentious issue among the American public. Since police brutality is becoming a hot topic for the 2016 Presidential Election, it is important to be educated about the reality of police shootings, as indicated by the crowdsourced data represented in the map below.
+    </p>
+    <p>This map shows crowdsourced police shooting data from <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202">deadspin</a>. Circle color indicates if the victim was <strong>hit</strong> or <font color = "red"><strong>killed</strong></font>. Circle size indicates the scale of the number of times the victim was shot). Click each point for more details of the shooting.</p>
+    </div>
     <div class="container">
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
-      <div id="container"></div>
+      <div id="map"></div>
     </div>
     <script>
-      
       // This is where you should execute your drawMap function
-      
+      drawMap();
     </script>
-  </body>
-</html>
+  </bodym</html>

@@ -1,4 +1,9 @@
 /* You'll probably want to add some styles here */
-#container {
+
+#map {
 	height:800px;
+}
+
+body, th {
+	text-align: center;	
 }
